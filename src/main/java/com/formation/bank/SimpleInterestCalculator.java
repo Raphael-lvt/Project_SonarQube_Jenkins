@@ -17,4 +17,8 @@ public class SimpleInterestCalculator implements InterestCalculator{
 		return amount * year * rate;
 	}
 
+	@Override
+	public double devide(double num) {
+		return num / 0.00;
+	}
 }
