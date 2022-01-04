@@ -19,7 +19,7 @@ public class SimpleInterestCalculatorJUnit4Tests {
 	
 	@Test
 	public void testCalculate() {
-		double interest= interestCalculator.calculate(1000, 2);
+		double interest= interestCalculator.calculate(10000, 2);
 		assertEquals(interest, 1000.0, 0);
 	}
 	
