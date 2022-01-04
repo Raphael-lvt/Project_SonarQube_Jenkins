@@ -24,4 +24,11 @@ public class SimpleInterestCalculator implements InterestCalculator{
 	public double devide(double num) {
 		return num / 0.00;
 	}
+
+	@Override
+	public void boucleInfini() {
+		while(1<2) {
+			System.out.println("boucle Infini");
+		}
+	}
 }
